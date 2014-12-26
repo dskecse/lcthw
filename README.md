@@ -105,3 +105,13 @@ see what happens. Rerun `make clean` and you should get something like this:
 Always remember to indent, and if you get weird errors like this then double
 check you're consistently using tab characters since some `make` variants are
 very picky.
+
+### Extra Credit
+
+* Create an `all: ex2` target that will build `ex2` with just the command
+`make`.
+* Read `man make` to find out more information on how to run it.
+* Read `man cc` to find out more information on what the flags `-Wall` and `-g`
+do.
+* Research `Makefile`s online and see if you can improve this one even more.
+* Find a `Makefile` in another C project and try to understand what it's doing.
