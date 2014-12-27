@@ -30,3 +30,7 @@ like `GCC`, `Git` and `Subversion` on your machine, but nowadays there is a slim
 solution by just installing the command line tools:
 
     $ xcode-select --install
+
+## TODO
+
+- [ ] Check out [Clang Static Analyzer](http://clang-analyzer.llvm.org/)
