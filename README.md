@@ -171,3 +171,18 @@ should get a couple of warnings.
 age.
 * Put the `printf` back the way it was, and then don't set `age` to an initial
 value by changing that line to `int age;` then rebuild and run again.
+
+### Extra Credit
+
+* Find out _all_ of the `printf` _escape codes_ and _format sequences_. Escape
+codes are `\n` or `\t` that let you print a newline or tab (respectively).
+Format sequences are the `%s` or `%d` that let you print a string or an integer.
+Find all of the ones available, how you can modify them, and what kind of
+"precisions" and widths you can do (run `man printf`).
+* Find as many other ways to break `ex3.c` as you can.
+* Run `man 3 printf` and read about the other `%` format characters you can use.
+These should look familiar if you used them in other languages.
+* Add `ex3` to your `Makefile`'s `all` list. Use this to `make clean all` and
+build all your exercises so far.
+* Add `ex3` to your `Makefile`'s clean list as well. Now use `make clean` to
+remove it when you need to.
